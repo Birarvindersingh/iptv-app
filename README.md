@@ -1,50 +1,42 @@
 <div align="left" style="position: relative;">
-<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" align="right" width="30%" style="margin: -20px 0 0 20px;">
-<h1>IPTV-APP</h1>
+<img src="https://raw.githubusercontent.com/Birarvindersingh/iptv-app/91895ee562a071531501fdeb9019615d9895eb1f/public/iptv.svg" align="right" width="30%" style="margin: -20px 0 0 20px;">
+<h1>IPTV-App</h1>
 <p align="left">
-	<em><code>❯ REPLACE-ME</code></em>
 </p>
 <p align="left">
-	<img src="https://img.shields.io/github/license/Birarvindersingh/iptv-app?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
 	<img src="https://img.shields.io/github/last-commit/Birarvindersingh/iptv-app?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
 	<img src="https://img.shields.io/github/languages/top/Birarvindersingh/iptv-app?style=default&color=0080ff" alt="repo-top-language">
 	<img src="https://img.shields.io/github/languages/count/Birarvindersingh/iptv-app?style=default&color=0080ff" alt="repo-language-count">
 </p>
-<p align="left"><!-- default option, no dependency badges. -->
-</p>
-<p align="left">
-	<!-- default option, no dependency badges. -->
-</p>
+<br><br><br><br><br><br>
 </div>
-<br clear="right">
 
 ##  Table of Contents
 
 - [ Overview](#-overview)
 - [ Features](#-features)
 - [ Project Structure](#-project-structure)
-  - [ Project Index](#-project-index)
 - [ Getting Started](#-getting-started)
   - [ Prerequisites](#-prerequisites)
   - [ Installation](#-installation)
   - [ Usage](#-usage)
   - [ Testing](#-testing)
-- [ Project Roadmap](#-project-roadmap)
-- [ Contributing](#-contributing)
-- [ License](#-license)
-- [ Acknowledgments](#-acknowledgments)
 
 ---
 
 ##  Overview
 
-<code>❯ REPLACE-ME</code>
+The `iptv-app` repository provides a foundational structure for building an IPTV (Internet Protocol Television) application. This project focuses on the core functionality of parsing M3U playlists and rendering live TV streams within a web browser environment.
 
 ---
 
 ##  Features
 
-<code>❯ REPLACE-ME</code>
+* M3U Playlist Parsing: The application is designed to interpret and process M3U playlist files, which are commonly used to define lists of media streams.
+* Channel Listing: It extracts channel names and stream URLs from the M3U playlist, presenting them in a user-friendly list.
+* Live Stream Playback: Upon user selection, the application initiates playback of the chosen live stream using the browser's native video capabilities or embedded media players.
+* Basic User Interface: A simple and intuitive interface allows users to input M3U playlist URLs and select channels for viewing.
+* Client-Side Implementation (Primarily): The project leans towards client-side implementation, making it accessible through web browsers without requiring extensive server-side infrastructure for basic operation.
 
 ---
 
@@ -70,88 +62,6 @@
     │   └── utils
     └── vite.config.js
 ```
-
-
-###  Project Index
-<details open>
-	<summary><b><code>IPTV-APP/</code></b></summary>
-	<details> <!-- __root__ Submodule -->
-		<summary><b>__root__</b></summary>
-		<blockquote>
-			<table>
-			<tr>
-				<td><b><a href='https://github.com/Birarvindersingh/iptv-app/blob/master/package-lock.json'>package-lock.json</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/Birarvindersingh/iptv-app/blob/master/vite.config.js'>vite.config.js</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/Birarvindersingh/iptv-app/blob/master/package.json'>package.json</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/Birarvindersingh/iptv-app/blob/master/index.html'>index.html</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/Birarvindersingh/iptv-app/blob/master/eslint.config.js'>eslint.config.js</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			</table>
-		</blockquote>
-	</details>
-	<details> <!-- src Submodule -->
-		<summary><b>src</b></summary>
-		<blockquote>
-			<table>
-			<tr>
-				<td><b><a href='https://github.com/Birarvindersingh/iptv-app/blob/master/src/index.css'>index.css</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/Birarvindersingh/iptv-app/blob/master/src/App.css'>App.css</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/Birarvindersingh/iptv-app/blob/master/src/App.jsx'>App.jsx</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			<tr>
-				<td><b><a href='https://github.com/Birarvindersingh/iptv-app/blob/master/src/main.jsx'>main.jsx</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
-			</tr>
-			</table>
-			<details>
-				<summary><b>components</b></summary>
-				<blockquote>
-					<table>
-					<tr>
-						<td><b><a href='https://github.com/Birarvindersingh/iptv-app/blob/master/src/components/VideoPlayer.jsx'>VideoPlayer.jsx</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					<tr>
-						<td><b><a href='https://github.com/Birarvindersingh/iptv-app/blob/master/src/components/ChannelList.jsx'>ChannelList.jsx</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					</table>
-				</blockquote>
-			</details>
-			<details>
-				<summary><b>utils</b></summary>
-				<blockquote>
-					<table>
-					<tr>
-						<td><b><a href='https://github.com/Birarvindersingh/iptv-app/blob/master/src/utils/parseM3U.js'>parseM3U.js</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					</table>
-				</blockquote>
-			</details>
-		</blockquote>
-	</details>
-</details>
 
 ---
 ##  Getting Started
@@ -209,67 +119,10 @@ Run the test suite using the following command:
 ❯ npm test
 ```
 
-
----
-##  Project Roadmap
-
-- [X] **`Task 1`**: <strike>Implement feature one.</strike>
-- [ ] **`Task 2`**: Implement feature two.
-- [ ] **`Task 3`**: Implement feature three.
-
 ---
 
-##  Contributing
+## Disclaimer
 
-- **💬 [Join the Discussions](https://github.com/Birarvindersingh/iptv-app/discussions)**: Share your insights, provide feedback, or ask questions.
-- **🐛 [Report Issues](https://github.com/Birarvindersingh/iptv-app/issues)**: Submit bugs found or log feature requests for the `iptv-app` project.
-- **💡 [Submit Pull Requests](https://github.com/Birarvindersingh/iptv-app/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
-
-<details closed>
-<summary>Contributing Guidelines</summary>
-
-1. **Fork the Repository**: Start by forking the project repository to your github account.
-2. **Clone Locally**: Clone the forked repository to your local machine using a git client.
-   ```sh
-   git clone https://github.com/Birarvindersingh/iptv-app
-   ```
-3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
-   ```sh
-   git checkout -b new-feature-x
-   ```
-4. **Make Your Changes**: Develop and test your changes locally.
-5. **Commit Your Changes**: Commit with a clear message describing your updates.
-   ```sh
-   git commit -m 'Implemented new feature x.'
-   ```
-6. **Push to github**: Push the changes to your forked repository.
-   ```sh
-   git push origin new-feature-x
-   ```
-7. **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
-8. **Review**: Once your PR is reviewed and approved, it will be merged into the main branch. Congratulations on your contribution!
-</details>
-
-<details closed>
-<summary>Contributor Graph</summary>
-<br>
-<p align="left">
-   <a href="https://github.com{/Birarvindersingh/iptv-app/}graphs/contributors">
-      <img src="https://contrib.rocks/image?repo=Birarvindersingh/iptv-app">
-   </a>
-</p>
-</details>
-
----
-
-##  License
-
-This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
-
----
-
-##  Acknowledgments
-
-- List any resources, contributors, inspiration, etc. here.
+IPTV-App does not provide any playlists or other digital content.
 
 ---
